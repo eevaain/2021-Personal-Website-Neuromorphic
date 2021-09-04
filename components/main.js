@@ -13,13 +13,13 @@ export default function Main() {
          <a className = "flex justify-center font-extrabold text-5xl text-center pb-2 pt-2 sm:text-6xl "> Hey! I'm Evan.</a>
           <div className = "flex flex-row justify-center">
             <a className = "font-regular text-lg sm:text-3xl">Welcome to my website! </a>
-            <img src="wave.png" className="h-7 sm:h10"/>
+            <img src="wave.png" className="h-8"/>
           </div>
       </div>
         <div className = "portfolio">
           <div className = "flex flex-col items-center ">
             <img className = "flex h-52  justify-center sm:h-72" src="me.png"></img>
-            <div className = "cursor-pointer rounded-full py-4 w-72 flex items-center justify-center bg-gray-100 filter drop-shadow-xl transform transition duration-400 hover:scale-110 sm:w-96 ">
+            <div className = "cursor-pointer rounded-full py-4 w-72 flex items-center justify-center bg-gray-100 filter drop-shadow-xl transform transition duration-400 hover:scale-110 sm:w-96" onClick = {() => window.open('https://trusting-clutch-140.notion.site/6052530559bc4e1db8a48520d056da80?v=d7765ed8598843e1bd79d17d3187933c')}>
               <a className = "font-bold text-2xl text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">My Portfolio</a>
             </div>
           </div>
