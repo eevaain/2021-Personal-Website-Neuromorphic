@@ -3,17 +3,17 @@ export default function Main() {
     return(
       <>
       <div className = "flex justify-between">
-        <img className = "h-28 sm:20"src="vector.png"></img>
-          <div className = "cursor-pointer rounded-full h-14 w-48 flex items-center justify-center bg-gray-100 filter drop-shadow-xl transform transition duration-400 hover:scale-110 mt-8 sm:w-64">
-            <a className = "font-bold text-lg text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 sm:text-xl">My Newsletter</a>
+        <img className = "h-28 sm: h-20"src="vector.png"></img>
+          <div className = "cursor-pointer rounded-full h-12 w-40 flex items-center justify-center bg-gray-100 filter drop-shadow-xl transform transition duration-400 hover:scale-110 mt-8 sm:w-52 h-14">
+            <a className = "font-bold text-sm text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 sm:text-lg">My Newsletter</a>
           </div>
       </div>
 
       <div className = "header">
-         <a className = "flex justify-center font-extrabold text-5xl text-center pb-2 pt-2 sm:text-6xl "> Hey! I'm Evan.</a>
+         <a className = "flex justify-center font-extrabold text-5xl text-center pb-2 pt-4 sm:text-6xl"> Hey! I'm Evan.</a>
           <div className = "flex flex-row justify-center">
             <a className = "font-regular text-lg sm:text-3xl">Welcome to my website! </a>
-            <img src="wave.png" className="h-8"/>
+            <img src="wave.png" className="wave h-8"/>
           </div>
       </div>
         <div className = "portfolio">
