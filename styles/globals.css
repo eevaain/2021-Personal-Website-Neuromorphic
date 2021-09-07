@@ -32,8 +32,4 @@
         50%  { transform: translate(0, 30px); } 
         100%   { transform: translate(0, -0px); }     
     } 
-    
-    /* html, body, #_next {
-        min-height: 100vh;
-    } */
 }
