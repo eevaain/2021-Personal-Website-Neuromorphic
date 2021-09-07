@@ -5,7 +5,7 @@ import Main from '../components/main'
 
 export default function Home() {
   return (
-    <div className = "flex flex-col ml-10 mr-10 mt-5 mb-5 ">
+    <div className = "h-screen w-screen p-10 flex flex-col dark:bg-gray-900">
       <Head>
        <title>Evan Lin</title>
        <link rel="icon" href="/favicon.ico" />
