@@ -54,7 +54,7 @@ export default function Main() {
       </div>
 
       <div className = "header">
-         <a className = "dark:text-white flex justify-center font-extrabold text-5xl text-center pb-2 pt-6 sm:text-6xl sm:pt-4"> Hey! I'm Evan.</a>
+         <a className = "dark:text-white flex justify-center font-extrabold text-4xl text-center pb-2 pt-6 sm:text-6xl sm:pt-4"> Hey! I'm Evan.</a>
           <div className = "flex flex-row justify-center">
             <a className = "dark:text-white font-regular text-lg sm:text-3xl">Welcome to my website! </a>
             <img src="wave.png" className="wave h-7 sm:h-10"/>
@@ -62,7 +62,7 @@ export default function Main() {
       </div>
         <div className = "portfolio">
           <div className = "flex flex-col items-center ">
-            <div className = "circle absolute rounded-full h-20 w-20 flex items-center justify-center mr-16 bg-yellow-200 filter drop-shadow-lg sm:h-24 sm:w-24 sm:mr-20"></div>
+            <div className = "circle absolute rounded-full h-20 w-20 mr-16 bg-yellow-200 filter drop-shadow-lg sm:h-24 sm:w-24 sm:mr-20"></div>
             <img className = "flex h-52 justify-center z-10 sm:h-72" src="me.png"></img>
             <div className = "dark:bg-purple-700 z-10 cursor-pointer rounded-full py-4 w-72 flex items-center justify-center bg-gray-100 filter drop-shadow-xl border-opacity-0 transform transition duration-400 hover:scale-110 sm:w-96" onClick = {() => window.open('https://trusting-clutch-140.notion.site/6052530559bc4e1db8a48520d056da80?v=d7765ed8598843e1bd79d17d3187933c')}>
               <a className = "dark:text-white font-bold text-2xl text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">My Portfolio</a>
@@ -72,17 +72,17 @@ export default function Main() {
 
       <div className = "flex flex-col self-center pt-8 max-w-lg">
         <div className = "past">
-          <a className = "dark:text-white font-bold text-2xl">Stuff I’ve done: </a>
+          <a className = "dark:text-white font-bold text-xl sm:text-2xl">Stuff I’ve done: </a>
           <div>
-            <a className = "dark:text-white">Made and shutdown a <b>crypto analytics startup</b> with friends, built 
+            <a className = "dark:text-white text-sm sm:text-base">Made and shutdown a <b>crypto analytics startup</b> with friends, built 
             <b> machine learning webapps</b>, spoke at <b>IBM Evoke</b> 2020, Full Stack 
             + UI/UX, prev <b>intern</b> at Vocinity Inc. Recently recieved a <b>scholarship</b> to attend <b>NFT NYC</b>
             . <em>Last updated 07/11/21.</em></a>
           </div>
         </div>
         <div className = "present pt-8">
-         <a className = "dark:text-white font-bold text-2xl ">My Current Focus:</a>
-            <div className = "dark:text-white">
+         <a className = "dark:text-white font-bold text-xl sm:text-2xl">My Current Focus:</a>
+            <div className = "dark:text-white text-sm sm:text-base">
               <li>Discovering purpose, passion and love through <b>spirituality</b></li>
               <li>Building a homebrew computer from <b>scratch</b></li>
               <li>Exploring the realm of <b>Brain-Computer Interfaces</b> (BCIs)</li>
