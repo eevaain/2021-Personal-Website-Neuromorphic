@@ -77,7 +77,7 @@ export default function Main() {
             <a className = "dark:text-white">Made and shutdown a <b>crypto analytics startup</b> with friends, built 
             <b> machine learning webapps</b>, spoke at <b>IBM Evoke</b> 2020, Full Stack 
             + UI/UX, prev <b>intern</b> at Vocinity Inc. Recently recieved a <b>scholarship</b> to attend <b>NFT NYC</b>
-            . Last updated 07/11/21.</a>
+            . <em>Last updated 07/11/21.</em></a>
           </div>
         </div>
         <div className = "present pt-8">
