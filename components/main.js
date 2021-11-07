@@ -62,7 +62,7 @@ export default function Main() {
       </div>
         <div className = "portfolio">
           <div className = "flex flex-col items-center ">
-            <div className = "circle absolute rounded-full h-20 w-20 mr-16 bg-yellow-200 filter drop-shadow-lg sm:h-24 sm:w-24 sm:mr-20"></div>
+            <div className = "circle absolute rounded-full  mr-16 bg-yellow-200 filter drop-shadow-lg sm:h-24 sm:w-24 sm:mr-20"></div>
             <img className = "flex h-52 justify-center z-10 sm:h-72" src="me.png"></img>
             <div className = "dark:bg-purple-700 z-10 cursor-pointer rounded-full py-4 w-72 flex items-center justify-center bg-gray-100 filter drop-shadow-xl border-opacity-0 transform transition duration-400 hover:scale-110 sm:w-96" onClick = {() => window.open('https://trusting-clutch-140.notion.site/6052530559bc4e1db8a48520d056da80?v=d7765ed8598843e1bd79d17d3187933c')}>
               <a className = "dark:text-white font-bold text-2xl text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">My Portfolio</a>
