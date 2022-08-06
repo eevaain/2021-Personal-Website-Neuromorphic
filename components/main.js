@@ -76,7 +76,7 @@ export default function Main() {
           <div>
             <a className = "dark:text-white text-sm sm:text-base">Made and shutdown a <b>crypto analytics startup</b> with friends, built 
             <b> machine learning webapps</b>, spoke at <b>IBM Evoke</b> 2020, Full Stack 
-            + UI/UX, prev <b>intern</b> at Vocinity Inc. Recently recieved a <b>scholarship</b> to attend <b>NFT NYC</b>
+            + UI/UX, prev <b>intern</b> at Vocinity Inc. Microsoft Imagine Cup <b> World Finalist</b>
             . <em>Last updated 07/11/21.</em></a>
           </div>
         </div>
