@@ -1,94 +1,103 @@
 import Head from "next/head";
-import useDarkMode from './useDarkMode'
+import "@fontsource/playfair-display/500.css"
 
 export default function Main() {
-  const [colorTheme, setTheme] = useDarkMode();
-    return(
+
+    return (
       <>
-      <div className = "flex justify-between">
-        <img className = "h-16 sm:h-20"src="vector.png"></img>
+      <div className="flex flex-col place-self-center ">
 
-        <div className= "flex flex-row space-x-3 items-center sm:space-x-4">
-
-        <div className = "">
-          {colorTheme === "light" ? (
-            <svg
-            onClick={() => setTheme("light")}
-            xmlns="http://www.w3.org/2000/svg"
-            className="h-10 w-10 text-gray-300"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-            >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2}
-              d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"
-              />
-          </svg>
-        ) : (
-          <svg
-          onClick={() => setTheme("dark")}
-          xmlns="http://www.w3.org/2000/svg"
-          className="h-10 w-10 text-gray-900"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2}
-              d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"
-              />
-          </svg>
-        )}
+        <div className="relative">
+          <img className = "rounded-md h-12 w-big sm:h-16 bg-bottom object-cover " src="trippy2.png"></img>
+          <a className="medium absolute w-full py-2.5 bottom-2.5 text-white text-center">Evan Lin</a>
         </div>
 
-          <div className = "dark:bg-purple-700 cursor-pointer rounded-full h-12 w-40 flex items-center justify-center bg-gray-100 filter drop-shadow-xl border-opacity-0 transform transition duration-400 hover:scale-110 sm:w-52 sm:h-14">
-            <a className = "dark:text-white font-bold text-sm text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 sm:text-lg">My Newsletter</a>
-          </div>
-        </div>
+        {/* GIVE A THANK YOU TO EVERY SECTION LIKE A THANK YOU TO BRETT FOR EPIPHETS*/}
+        {/* thank anshul and harrison in projects*/}
+        {/* thank jake in bookshelf */}
+        {/* thank jae and ryan junee in writing */}
+
+              <div className = "flex justify-around pt-6 pb-8">
+                <a className = "regular">Home [0]</a>
+                <a className = "regular">Writing [1]</a>
+                <a className = "regular">Bookshelf [2]</a>
+                <a className = "regular">Epiphets [3]</a>
+                <a className = "regular">Projects [4]</a>
+              </div>
 
       </div>
 
-      <div className = "header">
-         <a className = "dark:text-white flex justify-center font-extrabold text-4xl text-center pb-2 pt-6 sm:text-6xl sm:pt-4"> Hey! I'm Evan.</a>
-          <div className = "flex flex-row justify-center">
-            <a className = "dark:text-white font-regular text-lg sm:text-3xl">Welcome to my website! </a>
-            <img src="wave.png" className="wave h-7 sm:h-10"/>
-          </div>
-      </div>
-        <div className = "portfolio">
-          <div className = "flex flex-col items-center ">
-            <div className = "circle absolute rounded-full  mr-16 bg-yellow-200 filter drop-shadow-lg sm:h-24 sm:w-24 sm:mr-20"></div>
-            <img className = "flex h-52 justify-center z-10 sm:h-72" src="me.png"></img>
-            <div className = "dark:bg-purple-700 z-10 cursor-pointer rounded-full py-4 w-72 flex items-center justify-center bg-gray-100 filter drop-shadow-xl border-opacity-0 transform transition duration-400 hover:scale-110 sm:w-96" onClick = {() => window.open('https://trusting-clutch-140.notion.site/6052530559bc4e1db8a48520d056da80?v=d7765ed8598843e1bd79d17d3187933c')}>
-              <a className = "dark:text-white font-bold text-2xl text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">My Portfolio</a>
-            </div>
-          </div>
-        </div>
 
-      <div className = "flex flex-col self-center pt-8 max-w-lg">
-        <div className = "past">
-          <a className = "dark:text-white font-bold text-xl sm:text-2xl">Stuff I’ve done: </a>
-          <div>
-            <a className = "dark:text-white text-sm sm:text-base">Made and shutdown a <b>crypto analytics startup</b> with friends, built 
-            <b> machine learning webapps</b>, spoke at <b>IBM Evoke</b> 2020, Full Stack 
-            + UI/UX, prev <b>intern</b> at Vocinity Inc. Microsoft Imagine Cup <b> World Finalist</b>
-            . <em>Last updated 07/11/21.</em></a>
-          </div>
-        </div>
-        <div className = "present pt-8">
-         <a className = "dark:text-white font-bold text-xl sm:text-2xl">My Current Focus:</a>
-            <div className = "dark:text-white text-sm sm:text-base">
-              <li>Discovering purpose, passion and love through <b>spirituality</b></li>
-              <li>Building a homebrew computer from <b>scratch</b></li>
-              <li>Exploring the realm of <b>Brain-Computer Interfaces</b> (BCIs)</li>
+      <div className = "Header">
+         <a className = "medium text-black flex justify-center text-4xl text-center pb-2 pt-6 sm:text-6xl sm:pt-4 tracking-normal"> Take a Leap of Faith</a>
+            <div className = "flex flex-row justify-center">
+              <a className = "medium text-black font-regular text-lg sm:text-3xl pb-6 tracking-normal"> Pull the Lever. </a>
             </div>
+      </div>
+
+
+      <div className = "Portfolio">
+        <div className = "flex flex-col items-center ">
+          <img className = "flex h-52 justify-center z-10 sm:h-72" src="ok2.png"></img>
         </div>
-        
+      </div>
+
+
+      <div className = "flex flex-col self-center pt-6 max-w-lg">
+
+        <details class=" open:bg-amber-200 duration-300">
+            <summary class="bg-inherit text-lg cursor-pointer">
+              <a class="medium sm:text-2xl"> <pog className="pog">Design choice </pog>about this site </a>
+              </summary>
+            <div class="bg-white px-5 py-3 border border-gray-300 text-sm font-light">
+                <p>under construction.</p>
+            </div>
+        </details>
+
+        <details class="pt-0.5 open:bg-amber-200 duration-300">
+            <summary class="bg-inherit text-lg cursor-pointer">
+              <a class="medium sm:text-2xl"> About me </a>
+              </summary>
+            <div class="bg-white px-5 py-3 border border-gray-300 text-sm font-light">
+                <p>Esoteric embedded system enthusiast. Seeking fundemental truths of reality. This part is also still under construction. </p>
+            </div>
+        </details>
+
+
+
+          <div className = "Footer pt-20">
+            <a className = "medium text-black text-xl sm:text-2xl tracking-normal">Find me on</a>
+             <div className = "flex gap-x-8 pt-6">
+
+              <div>
+                <a className = "regular">YouTube</a>
+                <img src="scribble1.png"></img>
+              </div>
+
+
+              <div>
+                <a className = "regular">Twitter</a>
+                <img src="scribble2.png"></img>
+              </div>
+
+              <div>
+                <a className = "regular">LinkedIn</a>
+                <img src="scribble3.png"></img>
+              </div>
+
+              <div>
+                <a className = "regular">Instagram</a>
+                <img src="scribble4.png"></img>
+              </div>
+
+              <div>
+                <a className = "regular">Email</a>
+                <img src="scribble5.png"></img>
+              </div>
+
+              </div> 
+          </div>
+  
       </div>
     </>
     )

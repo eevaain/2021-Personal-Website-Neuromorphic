@@ -1,6 +1,7 @@
 {
   "dependencies": {
-    "next": "^11.1.2",
+    "@fontsource/playfair-display": "^4.5.11",
+    "next": "^12.2.5",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
